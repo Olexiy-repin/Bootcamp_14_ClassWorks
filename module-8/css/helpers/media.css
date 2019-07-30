@@ -1,0 +1,112 @@
+@media (max-width: 1199px) {
+    .header__navigation {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding-bottom: 36px;
+    }
+
+    .navigation__container {
+        padding: 26px 40px;
+    }
+
+    .header__title {
+        font-size: 45px;
+    }
+
+    .header__description {
+        width: 440px;
+        margin: 0 auto;
+        line-height: 32px;
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navigation__burger-container {
+        display: none;
+    }
+
+    .header__scroll-btn {
+        display: none;
+    }
+
+    .navigation__container {
+        margin-bottom: 390px;
+    }
+
+    .header {
+        padding-bottom: 95px;
+    }
+
+    .header__logo {
+        width: 144px;
+    }
+
+    .header__navigation {
+        width: 850px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .header__navigation-list {
+        width: 612px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .header__navigation-list-link {
+        font-family: 'UbuntuB', sans-serif;
+        font-size: 15px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .header__navigation-btn {
+        font-family: "OpenSansB", sans-serif;
+        font-size: 15px;
+        width: 192px;
+        padding: 14px 0;
+        display: block;
+        border: none;
+        background-color: #fcae26;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px 0 rgba(252, 174, 38, .4);
+    }
+
+    .header__title {
+        font-size: 65px;
+        text-align: left;
+    }
+
+    .header__description {
+        font-size: 25px;
+        margin: 0;
+        position: relative;
+        padding-left: 70px;
+        padding-right: 30px;
+        letter-spacing: -.6px;
+    }
+
+    .header__description::before {
+        display: inline-block;
+        content: '';
+        width: 3px;
+        height: 63px;
+        background-color: #fcae26;
+        position: absolute;
+        top: 50%;
+        left: 42px;
+        transform: translateY(-50%);
+    }
+}

@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: block;
+}
+
+.container {
+    width: 280px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 620px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1036px;
+    }
+}
